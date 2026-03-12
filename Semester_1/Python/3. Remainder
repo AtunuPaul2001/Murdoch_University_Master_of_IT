@@ -1,4 +1,4 @@
-# 2. Add to the simple program from Exercise 1
+# Add to the simple program from Exercise 1
 # such that after performing and reporting the division result, it calculates, stores and reports
 # the remainder of the integer division of the same two input integer numbers.
 # Hint: use the modulas operator.
@@ -13,3 +13,4 @@ else:
          print(D)
          Remainder = x%y
          print(Remainder)
+
