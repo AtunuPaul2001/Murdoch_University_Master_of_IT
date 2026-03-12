@@ -1,0 +1,15 @@
+# 2. Add to the simple program from Exercise 1
+# such that after performing and reporting the division result, it calculates, stores and reports
+# the remainder of the integer division of the same two input integer numbers.
+# Hint: use the modulas operator.
+
+x = int(input("Enter 1st numnber: "))
+y = int(input("Enter 2nd number: "))
+
+if y==0:
+         print("Error: Execution not possible")
+else:
+         D = x//y
+         print(D)
+         Remainder = x%y
+         print(Remainder)
