@@ -1,4 +1,4 @@
-# 5. Modify Exercise 5 in Lab 1 using a while loop:
+# Modify Exercise 5 in Lab 1 using a while loop:
 # the program will repeatedly read a user input as the temperature value in Fahreinheit, and convert it to Celsius
 # and print it out, until the user input is "end".
 
@@ -10,5 +10,6 @@ while temp != "end":
     print("Fahrenheit", fahrenheit)
     print ("Celsius", celsius)
     temp = input("Enter Fahrenheit (Or End to quit): ")
+
 
 print("End")
