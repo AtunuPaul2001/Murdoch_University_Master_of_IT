@@ -1,0 +1,38 @@
+# 4. Write a program using if-elif-else statements
+# that simulates the fines issued to drivers based on speeds recorded by a police radar gun.
+# Your program should read the recorded vehicle speed (in km/h) as an integer
+# and print the message "Speeding" if the speed exceeds 60 km/h or "Not Speeding" if the speed 60 km/h or less.
+# The program should then calculate the appropriate fine (if applicable).
+# If the speed is 5 km/h or less over this limit, only issue a warning.
+# If the speed is more than 5 and no more than 10 km/h above the limit, the fine is $100.
+# For a speed of more than 10 but no more than 20 km/h above the limit, the fine is $200.
+# For a speed of more than 20 km/h above the limit, the fine is $500.
+# You should consider what to do if the input is a negative number.
+# Speed cameras do not register negative numbers, so they should not be accepted as input.
+# Note: data type is assumed to be int for the purpose of this exercise, DO NOT use floating point numbers.
+# Also, 60 or less means the speed can be 60 but no more; this is not speeding.
+# Exceeds 60 means the speed is over 60 and therefore speeding.
+# This same logic applies when considering the other speed categories and can be viewed as follows:
+# 61-65 inclusive = warning
+# 66-70 inclusive = $100
+# 71-80 inclusive = $200
+# 81 or more = $500
+
+Speed = int(input("Enter vehicle speed: "))
+
+if Speed < 0:
+    print("Error: Unacceptable input")
+elif Speed <= 60:
+    print("Not Speeding")
+elif Speed <= 65:
+    print("Speeding")
+    print("Warning issued!")
+elif Speed <= 70:
+    print("Speeding")
+    print("$100 Fined")
+elif Speed <= 80:
+    print("Speeding")
+    print("$200 Fined")
+else:
+    print("Speeding")
+    print("$500 Fined")
