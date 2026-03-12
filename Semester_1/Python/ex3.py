@@ -1,0 +1,22 @@
+# 3. Write a simple program that reads in an integer between 1 and 7 inclusive
+# and prints out the corresponding day of the week, assuming Monday is 1, Tuesday is 2, etc.
+# You should use a nested if--elif-else statement as part of your solution.
+# Provide a default "else" for when the entered number is outside the required range.
+
+Weekday = int(input("Enter the number between 1 and 7:"))
+if Weekday == 1:
+    print("Monday")
+elif Weekday == 2:
+    print("Tuesday")
+elif Weekday == 3:
+    print("Wednesday")
+elif Weekday == 4:
+    print("Thursday")
+elif Weekday == 5:
+    print("Friday")
+elif Weekday == 6:
+    print("Saturday")
+elif Weekday == 7:
+    print("Sunday")
+else:
+    print("Error: Outside required range")
