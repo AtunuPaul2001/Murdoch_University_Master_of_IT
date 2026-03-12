@@ -1,0 +1,8 @@
+# 6. Write a program to calculate the sum of all even numbers between 23 and 578.
+# Hints: which loop would you use, while or for?
+
+sum = 0
+
+for i in range (24, 579, 2):
+    sum = sum + i
+print("Sum", sum)
