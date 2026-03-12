@@ -1,6 +1,6 @@
 print("Name: Atunu Paul")
 print("City: Perth")
-print("Cource: Master of Information Technology")
+print("Course: Master of Information Technology")
 print()
 print("The units I'm currently enrolled at Murdoch University are as follows:")
 print("ICT521: IT Professional Practice")
