@@ -1,0 +1,16 @@
+# 7. Revise Exercise 6 above, so that your program can calculate the sum of all even numbers between any two numbers.
+# You should prompt the user to enter the two numbers.
+# You must check the two numbers to ensure they make sense for this question.
+
+x = int(input("Enter the 1st number: "))
+y = int(input("Enter the 2nd number: "))
+
+if x>y:
+    x, y = y, x
+
+sum = 0
+
+for i in range (x, y + 1):
+    if i % 2 == 0:
+        sum = sum + i
+print("Sum", sum)
