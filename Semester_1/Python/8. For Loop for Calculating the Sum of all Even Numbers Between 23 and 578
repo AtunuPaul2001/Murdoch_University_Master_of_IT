@@ -1,4 +1,4 @@
-# 6. Write a program to calculate the sum of all even numbers between 23 and 578.
+# Write a program to calculate the sum of all even numbers between 23 and 578.
 # Hints: which loop would you use, while or for?
 
 sum = 0
