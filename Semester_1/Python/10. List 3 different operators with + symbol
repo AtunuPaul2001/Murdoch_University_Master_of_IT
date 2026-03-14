@@ -1,4 +1,4 @@
-# 8. List three different operators that are all represented by the same symbol + in Python.
+# List three different operators that are all represented by the same symbol + in Python.
 # Explain the applicable scope for each of these operators and give one example for each of them.
 
 print(1+2) #Basic arithmatic operation
